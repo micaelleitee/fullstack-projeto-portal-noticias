@@ -13,13 +13,50 @@
     />
   </head>
   <body>
-    <header>
-      <nav id="primary-bars">
+    <header class="container">
+      <nav id="primary-bars" class="grid grid-flow-col">
         <div class="menu-item">
-          <img src="" alt="menu-list" />
+          <img src="assets/icons/List.svg" alt="menu-list" />
+          <strong>Menu</strong>
+        </div>
+        <div class="logo">
+          <img src="assets/LOGO.svg" alt="logo" />
+        </div>
+        <div class="search">
+          <strong>Buscar</strong>
+          <img src="assets/icons/MagnifyingGlass.svg" alt="search-icon" />
         </div>
       </nav>
+      <nav id="secundary-bars" class="grid grid-flow-col">
+        <a href="#">Inteligência Artificial</a>
+        <a href="#">Blockchain</a>
+        <a href="#">Hologramas</a>
+        <a href="#">Internet</a>
+        <a href="#">Vestíveis</a>
+        <a href="#">Realidade Aumentada</a>
+        <a href="#">Realidade Virtual</a>
+      </nav>
     </header>
-    <div id="container"></div>
+    <main class="grid container">
+      <section id="feature" class="grid grid-flow-col gap-16">
+        <div>
+          <img src="assets/img/Image 01.png" alt="imagem1" />
+        </div>
+        <div class="grid grid-cols-2 gap-16">
+          <div>
+            <img src="assets/img/Image 02.png" alt="imagem2" />
+          </div>
+          <div>
+            <img src="assets/img/Image 03.png" alt="imagem3" />
+          </div>
+          <div>
+            <img src="assets/img/Image 04.png" alt="imagem4" />
+          </div>
+          <div>
+            <img src="assets/img/Image 05.png" alt="imagem5" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
